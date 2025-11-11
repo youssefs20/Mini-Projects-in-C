@@ -2,7 +2,7 @@
 
 A simple implementation of the **Caesar Cipher encryption algorithm** using the C programming language — without using the CS50 library.
 
-## 📌 Overview
+## what's this / over view
 
 Caesar Cipher is one of the oldest known encryption techniques. It encrypts a message by shifting each letter by a number (`key`) provided by the user.
 
@@ -25,7 +25,7 @@ Where:
 
 ---
 
-## 🚀 Features
+## Features
 
 -   Works with uppercase and lowercase letters.
 -   Keeps non-alphabetic characters unchanged (spaces, punctuation, numbers…).
@@ -34,7 +34,7 @@ Where:
 
 ---
 
-## 🛠️ How to Use
+## usage
 
 ### 1. Compile the program
 
