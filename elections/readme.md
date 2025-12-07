@@ -76,11 +76,12 @@ Voter 3, Rank 3: youssef
 
 ### Overview of Core Functions
 
-| Function | Description |
-| main |The entry point. It handles reading candidate names, receiving voter input, and managing the rounds of elimination.|
-| vote_func | Validates the candidate name and stores the preference (candidate index) in the preferences array.|
-| tabulate | Counts the votes in each round, crediting each voter's vote to their highest-ranked, non-eliminated candidate.|
-| print_winner | Checks if any candidate has secured a majority (>50%) of the votes.|
-| find_min | Finds the minimum number of votes received by any remaining candidate.|
-| is_final_tie | Detects a final tie by checking if all remaining candidates have the exact same number of votes.|
-| eliminate | Sets the eliminated flag to true for all candidates receiving the minimum number of votes.|
+| Function           | Description                                                                                                         |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **`main`**         | The entry point. It handles reading candidate names, receiving voter input, and managing the rounds of elimination. |
+| **`vote_func`**    | Validates the candidate name and stores the preference (candidate index) in the `preferences` array.                |
+| **`tabulate`**     | Counts the votes in each round, crediting each voter's vote to their highest-ranked, non-eliminated candidate.      |
+| **`print_winner`** | Checks if any candidate has secured a **majority** ($>50\%$) of the votes.                                          |
+| **`find_min`**     | Finds the minimum number of votes received by any remaining candidate.                                              |
+| **`is_final_tie`** | Detects a final tie by checking if all remaining candidates have the exact same number of votes.                    |
+| **`eliminate`**    | Sets the `eliminated` flag to `true` for all candidates receiving the minimum number of votes.                      |
