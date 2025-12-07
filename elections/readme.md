@@ -77,9 +77,6 @@ Voter 3, Rank 3: youssef
 ### Overview of Core Functions
 
 | Function | Description |
-
----
-
 | main |The entry point. It handles reading candidate names, receiving voter input, and managing the rounds of elimination.|
 | vote_func | Validates the candidate name and stores the preference (candidate index) in the preferences array.|
 | tabulate | Counts the votes in each round, crediting each voter's vote to their highest-ranked, non-eliminated candidate.|
